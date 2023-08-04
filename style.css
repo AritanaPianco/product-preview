@@ -1,0 +1,147 @@
+body,html{
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+    background-color: hsl(30, 38%, 92%);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+       
+}
+main{
+  display: flex;
+  justify-content: center;
+  
+  
+   
+}
+
+
+
+.hero{
+   display: flex;
+   align-items: center; 
+   background-color:  hsl(0, 0%, 100%);
+   
+   margin: 200px 700px;
+   border-radius: 20px;
+   /* outline: 2px solid red; */
+   
+
+  
+  
+   
+}
+
+.hero_image img{
+  padding: 0;
+  margin: 3px;
+  border-radius: 20px;
+  width: 455px;
+  
+  
+}
+
+.hero_content{
+   display: flex;
+   flex-direction: column; 
+   padding: 30px 30px;
+   gap: 35px;
+   margin:0 1px;
+   width: fit-content;
+}
+ 
+.content-parfu{
+    margin-top: 0;
+    letter-spacing: 8px;
+    color: rgba(0, 0, 0, 0.6);
+  
+    
+    
+}
+
+.content-title{
+    font-weight: bolder;
+    font-size: 50px;
+    margin: 0 2px 4px;
+    color:hsl(212, 21%, 14%);
+    line-height: 47px;
+   
+
+    
+}
+.content-p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0 2px;  
+}
+  
+    
+
+.hero_price{
+  display: flex;
+  gap: 70px; 
+  margin-bottom: 30px ;
+  padding: 3px 3px; 
+
+}
+
+.hero_price p span{
+    font-size: 49px;
+    font-weight: bold;
+    color: rgb(43, 132, 43);
+}
+
+.hero_price .p2{
+   color: rgba(0, 0, 0, 0.6);
+   text-decoration: line-through ;
+   font-size: 20px;
+   
+}
+   
+a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(43, 132, 43);
+  font-weight: bold;
+  padding: 5px 6px;
+  margin: 0;
+  display: flex;
+
+}
+   
+a:hover{
+    background-color: rgb(28, 88, 28);
+}
+
+a img{
+     width: 40px;
+     padding: 10px 20px;
+     margin-left: 60px; 
+     
+}
+   
+   
+   
+   
+
+
+
+
+
+  
+
+   
+
+
+    
+
+
+    
+
+
+
+
+
